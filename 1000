@@ -12,3 +12,18 @@
 /* python 3 */
 a, b = map(int, input().split())
 print(a+b)
+
+/* C */
+#include <stdio.h>
+
+int main() {
+    int A, B;
+
+    // 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+    scanf("%d %d", &A, &B);
+
+    // 둘째 줄에 A+B를 출력한다.
+    printf("%d\n", A + B);
+
+    return 0;
+}
