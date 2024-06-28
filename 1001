@@ -1,0 +1,30 @@
+문제
+두 정수 A와 B를 입력받은 다음, A-B를 출력하는 프로그램을 작성하시오.
+
+입력
+첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+
+출력
+첫째 줄에 A-B를 출력한다.
+
+/* java */
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // 입력 받기
+        int A = scanner.nextInt();
+        int B = scanner.nextInt();
+        
+        // A+B 계산하기
+        int sum = A - B;
+        
+        // 결과 출력하기
+        System.out.println(sum);
+        
+        // 스캐너 닫기
+        scanner.close();
+    }
+}
