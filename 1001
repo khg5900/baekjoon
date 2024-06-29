@@ -28,3 +28,10 @@ public class Main {
         scanner.close();
     }
 }
+
+/* python */
+# 입력 받기
+A, B = map(int, input().split())
+
+# A-B 계산 및 출력
+print(A - B)
