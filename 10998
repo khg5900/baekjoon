@@ -19,3 +19,9 @@ public class Main {
         System.out.println(A * B);
     }
 }
+
+javascript
+
+const A = parseInt(prompt());
+const B = parseInt(prompt());
+console.log(A * B);
