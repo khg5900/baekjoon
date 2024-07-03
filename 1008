@@ -23,3 +23,21 @@ public class DivideByTwo {
         scanner.close();
     }
 }
+
+javascript
+
+
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question('Enter the first integer: ', (A) => {
+  rl.question('Enter the second integer: ', (B) => {
+    const result = A / B;
+    console.log(`A/B = ${result}`);
+    rl.close();
+  });
+});
