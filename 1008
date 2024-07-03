@@ -1,0 +1,25 @@
+문제
+두 정수 A와 B를 입력받은 다음, A/B를 출력하는 프로그램을 작성하시오.
+자바와 자바스크립트, 파이썬으로 각각 구현해주세요
+
+java
+
+
+import java.util.Scanner;
+
+public class DivideByTwo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Enter the first integer: ");
+        int A = scanner.nextInt();
+        
+        System.out.print("Enter the second integer: ");
+        int B = scanner.nextInt();
+        
+        double result = (double)A / B;
+        System.out.println("A/B = " + result);
+        
+        scanner.close();
+    }
+}
